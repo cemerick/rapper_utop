@@ -1,0 +1,4 @@
+(library (name rapper_utop)
+  (libraries ppx_rapper ppx_rapper_lwt)
+  (flags (:standard -g))
+  (preprocess (pps ppx_deriving.std ppx_rapper)))
